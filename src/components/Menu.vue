@@ -6,7 +6,9 @@
             :key="product.id" 
             :nameBtn="product.name" 
             :menuBtns="product.countries"
-            :activeContextParent="null"/>
+            :activeContextParent="null"
+            />
+            
         </div>
     </div>
 </nav>

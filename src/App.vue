@@ -20,6 +20,11 @@ export default {
       activeComponent: ''
     }
   },
+  mounted() {
+    this.$root.$on('clickBtn',  (text) => {
+      this.activeComponent = text
+    })
+  }
 }
 </script>
 

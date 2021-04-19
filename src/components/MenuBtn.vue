@@ -22,7 +22,7 @@ export default {
         this.$parent.$children[i].activeBtn = false
       }
       this.activeBtn = !this.activeBtn
-      this.$root.$children[0].activeComponent = `${this.$parent.$parent.nameBtn}, ${this.$parent.nameBtn}, ${this.nameBtn}`
+      this.$root.$emit('clickBtn', `${this.$parent.$parent.nameBtn}, ${this.$parent.nameBtn}, ${this.nameBtn}`)
     }
   }
 }
