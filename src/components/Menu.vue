@@ -27,7 +27,7 @@ export default {
     return {
         products: [
             {
-                name: 'Апельсины',
+                name: 'Апельсини',
                 countries: [ 
                     {
                         name: 'Турція',
